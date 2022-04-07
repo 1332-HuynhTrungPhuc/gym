@@ -20,7 +20,7 @@ namespace Login.Controllers
         {
             return View(db.Videos.ToList());
         }
-
+        // commit bai
         // GET: Videos/Details/5
         public ActionResult Details(int? id)
         {
